@@ -1,0 +1,24 @@
+.text-field {
+    margin-bottom: 10px;
+}
+
+.text-field label {
+    display: block;
+}
+
+.text-field input {
+    width: 100%;
+}
+
+.tf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2px;
+    align-items: center;
+    border: solid whitesmoke 2px;
+    color: whitesmoke;
+    width: 300px;
+    
+    
+}
