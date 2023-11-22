@@ -1,7 +1,8 @@
-* {
-    background-color: black;
-    color:whitesmoke;
 
+.App {
+    background: url("./images/fire.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .flex-container {

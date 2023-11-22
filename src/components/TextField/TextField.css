@@ -1,5 +1,6 @@
 .text-field {
     margin-bottom: 10px;
+    background-color: #000;
 }
 
 .text-field label {
@@ -8,6 +9,7 @@
 
 .text-field input {
     width: 100%;
+    background-color: #000;
 }
 
 .tf {
@@ -17,7 +19,6 @@
     padding: 2px;
     align-items: center;
     border: solid whitesmoke 2px;
-    color: whitesmoke;
     width: 300px;
     
     
