@@ -24,7 +24,7 @@ const SearchBar = ({ songFilter }) => {
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Seacrh by title, artist, album"
           />
-          <button type="submit" className="btn btn-dark">
+          <button type="submit" className="btn btn-outline-danger">
             Search
           </button>
           <button className="btn btn-outline-light" onClick={refreshPage}>

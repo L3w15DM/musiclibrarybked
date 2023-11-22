@@ -29,6 +29,10 @@ const NewSongForm = ({ onNewSong }) => {
     }
   };
 
+  function refreshPage() {
+    window.location.reload(false);
+  }
+
   return (
     <form onSubmit={handleSubmit}>
       <div className="flex-item">
@@ -42,9 +46,12 @@ const NewSongForm = ({ onNewSong }) => {
           onChange={setReleaseDate}
         />
         <TextField label="Genre" value={genre} onChange={setGenre} />
-        <div className="flex-item">
+        <div className="flex-items">
           <button className="btn btn-outline-danger" type="submit">
             Add Song
+          </button>
+          <button className="btn btn-outline-light" onClick={refreshPage}>
+            Refresh
           </button>
         </div>
       </div>
